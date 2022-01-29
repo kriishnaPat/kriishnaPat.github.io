@@ -4,7 +4,7 @@ body{
     color: white;
 }
 
-.fa {
+.fa{
     padding: 10px;
     text-align: center;
     text-decoration: none;
@@ -12,7 +12,15 @@ body{
     text-size-adjust: 500px;
   }
 
-  .fa:hover {
+.fa:hover{
     opacity: 0.7;
   }
   
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+  }
